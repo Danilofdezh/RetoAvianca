@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Reto Avianca" skipped="0" tests="1" time="20.2" timestamp="2021-08-06 11:06:35"><testcase name="successful flight booking"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-PN37VG7U', ip: '192.168.1.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'&#10;Driver info: driver.version: ProvideNewDriver). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-PN37VG7U', ip: '192.168.1.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ProvideNewDriver). See below for more details.</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-PN37VG7U', ip: '192.168.1.83', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: ProvideNewDriver). See below for more details.&#13;
+com.avianca.automation.steps.AviancaPageSteps.openBrowser(AviancaPageSteps.java:18)&#13;
+com.avianca.tests.stepdefinitions.RetoAviancaStepDefinitions.userEntersThePageToBookAFlightWithAvianca(RetoAviancaStepDefinitions.java:15)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
